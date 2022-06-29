@@ -1,0 +1,250 @@
+/* Quasand fonts */
+@font-face {
+    font-family: "send";
+    src: url("./assets/fonts/Quicksand-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "send";
+    src: url("./assets/fonts/Quicksand-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "send";
+    src: url("./assets/fonts/Quicksand-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "send";
+    src: url("./assets/fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+
+/* Robot fonts */
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+/* Qanelas fonts */
+@font-face {
+    font-family: "qanelas";
+    src: url("./assets/fonts/Qanelas-Regular.ttf");
+}
+@font-face {
+    font-family: "qanelas";
+    src: url("./assets/fonts/Qanelas-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "qanelas";
+    src: url("./assets/fonts/Qanelas-Bold.ttf");
+    font-weight: 700;
+}
+/* Rubik */
+@font-face {
+    font-family: "rubik";
+    src: url("./assets/fonts/Rubik-Regular.ttf");
+}
+@font-face{
+    font-family: "rubik";
+    src: url("./assets/fonts/Rubik-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "rubik";
+    src: url("./assets/fonts/Rubik-Bold.ttf");
+    font-weight: 700;
+}
+/* CREATO DISPLAY */
+
+@font-face {
+    font-family: "creato";
+    src: url("./assets/fonts/CreatoDisplay-Bold.otf");
+    font-weight: 700;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.main-section{
+    margin-bottom: 91px;
+}
+
+/* NAVBAR BOSHLANDI */
+.main-section-wrapper{
+    padding-top: 40px;
+}
+
+
+.telephone-number img{
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+.navbar {
+    margin-top: 41px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.navbar::before{
+    background: url("./assets/images/Intersection4.png") no-repeat;
+    content: "";
+    position: absolute;
+    width: 128px;
+    height: 87px;
+    top: -40px;
+    right: 580px;
+}
+
+.navbar::after{
+    background: url("./assets/images/Intersection7.png") no-repeat;
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    top: 25px;
+    left: 342px;
+}
+
+.telephone-number div{
+    width: 140px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #293241;   
+}
+
+.telephone-number{
+    align-items: center;
+}
+
+/* marketing-agency BOSHLANDI */
+
+.marketing-agency img{
+    display: block;
+    margin-bottom: 44px;
+    padding-top: 208px;
+}
+
+.marketing-agency{
+    position: relative;
+}
+
+.contact-us{
+    border-radius: 50px;
+    background: #2DCA72;
+    border: none;
+}
+
+.contact-us p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.48px;
+    padding: 15px 29px;
+    color: #FFFFFF;
+}
+
+
+/* !FEATURED-IN SECTIONIGA O'TILDI */
+
+.featured-in{
+    margin-bottom: 193px;
+}
+.references h2{
+    font-family: 'creato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    color: #293241;
+    margin-right: 32px;
+}
+
+.references p{
+    font-family: 'creato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    color: #C7C6D5;
+    margin-left: 32px;
+}
+
+.references{
+    margin-bottom: 46px;
+}
+
+.our-certification{
+    border-left: 1px solid #707070;
+}
+
+/* Certification-icons */
+
+.companies{
+    padding: 40px 60px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+}
+
+.Certification-icons{
+    justify-content: space-between;
+    align-items: center;
+}
